@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acheron's Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./images/noun-calculator-5703040.svg">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="home"></a><img src="./images/LOGO.svg" alt="Acheron's Logo" id="logoimg">
+        </div>
+        <ul class="navbtn">
+            <li class="navbtns" id="suggestlink"><a href="#suggest">Suggest</a></li>
+            <li class="navbtns" id="contactlink"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="calculator">
+        <div class="btn_scrn-container">
+            <p><span id="left">SHIT CALC</span><span class="name">ACHERON est. <span>2023</span></p>
+            <div class="screen">0</div>
+            <div class="grid-btns">
+                <button class="operator" id="add" data-action="add">+</button>
+                <button class="operator" data-action="subtract">-</button>
+                <button class="operator" data-action="multiply">&times;</button>
+                <button class="operator" id="divide"data-action="divide">÷</button>
+                <button class="math-btns">7</button>
+                <button class="math-btns">8</button>
+                <button class="math-btns">9</button>
+                <button class="math-btns">4</button>
+                <button class="math-btns">5</button>
+                <button class="math-btns">6</button>
+                <button class="math-btns">1</button>
+                <button class="math-btns">2</button>
+                <button class="math-btns">3</button>
+                <button class="math-btns" id="zero">0</button>
+                <button class="math-btns" data-action="decimal">.</button>
+                <button class="math-btns" data-action="clear">CLR</button>
+                <button class="key-equal" data-action="calculate">=</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </main>
+</body>
+</html>
